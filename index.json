@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "scripts": [
+    {
+      "id": "mouse-gestures",
+      "name": "마우스 제스처",
+      "version": "1.1.0",
+      "description": "오른쪽 버튼 끌기로 탭 다루기",
+      "author": "TB's Browser",
+      "matches": [
+        "https://*",
+        "http://*"
+      ],
+      "permissions": [
+        "tabs"
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI4IiBmaWxsPSIjNEQ0RDREIi8+PHBhdGggZD0iTTkgOHYxMmgxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTE5IDE2bDQgNC00IDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPgo=",
+      "zip": "dist/mouse-gestures.zip",
+      "size": 8692
+    },
+    {
+      "id": "pip",
+      "name": "어떤 영상이든 PiP",
+      "version": "1.0.0",
+      "description": "영상을 PiP로 띄우기",
+      "author": "TB's Browser",
+      "matches": [
+        "https://*",
+        "http://*"
+      ],
+      "permissions": [],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI4IiBmaWxsPSIjNEQ0RDREIi8+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHJlY3QgeD0iNiIgeT0iOCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE2IiByeD0iMi41Ii8+PHJlY3QgeD0iMTUuNSIgeT0iMTUuNSIgd2lkdGg9IjciIGhlaWdodD0iNSIgcng9IjEiIGZpbGw9IiNGRkZGRkYiLz48L2c+PC9zdmc+Cg==",
+      "zip": "dist/pip.zip",
+      "size": 2950
+    },
+    {
+      "id": "youtube-block",
+      "name": "유튜브 사용자 차단",
+      "version": "1.0.1",
+      "description": "고른 채널의 영상·댓글 숨기기",
+      "author": "TB's Browser",
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://m.youtube.com/*"
+      ],
+      "permissions": [
+        "storage"
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI4IiBmaWxsPSIjNEQ0RDREIi8+PGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIuNCIvPjxwYXRoIGQ9Ik0xMC41IDIxLjVsMTEtMTEiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPgo=",
+      "zip": "dist/youtube-block.zip",
+      "size": 3322
+    },
+    {
+      "id": "youtube-screenshot",
+      "name": "유튜브 스크린샷 버튼",
+      "version": "1.0.0",
+      "description": "플레이어 아래 스크린샷 버튼",
+      "author": "TB's Browser",
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "permissions": [
+        "saveFile",
+        "screenshot"
+      ],
+      "icon": null,
+      "zip": "dist/youtube-screenshot.zip",
+      "size": 2172
+    },
+    {
+      "id": "chess-pieces",
+      "name": "체스닷컴 기물 바꾸기",
+      "version": "1.0.0",
+      "description": "체스닷컴 기물 그림 바꾸기",
+      "author": "TB's Browser",
+      "matches": [
+        "https://www.chess.com/*"
+      ],
+      "permissions": [],
+      "icon": null,
+      "zip": "dist/chess-pieces.zip",
+      "size": 4784
+    }
+  ]
+}

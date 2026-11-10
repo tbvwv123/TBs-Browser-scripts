@@ -1,0 +1,19 @@
+{
+  "id": "chess-pieces",
+  "name": "체스닷컴 기물 바꾸기",
+  "version": "1.0.0",
+  "description": "체스닷컴 기물 그림 바꾸기",
+  "author": "TB's Browser",
+  "matches": [
+    "https://www.chess.com/*"
+  ],
+  "run_at": "document_start",
+  "js": [],
+  "css": [
+    "style.css"
+  ],
+  "resource_overrides": [],
+  "permissions": [],
+  "enabled": true,
+  "pinned": false
+}

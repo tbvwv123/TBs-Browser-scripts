@@ -1,0 +1,50 @@
+{
+  "id": "youtube-block",
+  "name": "유튜브 사용자 차단",
+  "version": "1.0.1",
+  "description": "고른 채널의 영상·댓글 숨기기",
+  "author": "TB's Browser",
+  "icon": "icon.svg",
+  "matches": [
+    "https://www.youtube.com/*",
+    "https://m.youtube.com/*"
+  ],
+  "run_at": "document_end",
+  "js": [
+    "main.js"
+  ],
+  "css": [
+    "style.css"
+  ],
+  "resource_overrides": [],
+  "permissions": [
+    "storage"
+  ],
+  "settings": [
+    {
+      "key": "channels",
+      "type": "list",
+      "label": "차단한 채널",
+      "placeholder": "채널 이름 또는 @핸들",
+      "default": []
+    },
+    {
+      "key": "comments",
+      "type": "toggle",
+      "label": "댓글도 숨기기",
+      "section": "그 밖",
+      "default": false
+    },
+    {
+      "key": "note",
+      "type": "text",
+      "label": "숨긴 자리에 보일 글자",
+      "section": "그 밖",
+      "default": ""
+    }
+  ],
+  "shortcuts": [],
+  "actions": [],
+  "enabled": false,
+  "pinned": false
+}
